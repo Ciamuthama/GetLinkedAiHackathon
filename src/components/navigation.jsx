@@ -16,7 +16,7 @@ export default function Navigation() {
         <h2>FAQs</h2>
         <h2>Contact</h2>
         <button className='button_nav'>
-          <h2>Register</h2>
+          Register
         </button>
       </div>
     </div>

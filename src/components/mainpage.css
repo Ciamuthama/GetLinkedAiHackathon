@@ -81,3 +81,16 @@ font-style: normal;
 font-weight: 400;
 line-height: 133%; 
 }
+
+.man_image{
+  background: url('../../public/assets/man.png');
+  width: 60%;
+  height: 100%;
+  top: 15rem;
+  background-blend-mode: luminosity;
+  background-repeat: no-repeat;
+  filter: grayscale(1);
+  background-position: center;
+  position: absolute;
+  right: 0rem;
+}

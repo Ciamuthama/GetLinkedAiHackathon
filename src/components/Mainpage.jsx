@@ -3,7 +3,7 @@ import "./mainpage.css";
 export default function Mainpage() {
   return (
     <div className="mainpage">
-      <div>
+      <div style={{position:'relative'}}>
         <h2 className="first_h2">Igniting a Revolution in HR Innovation</h2>
       </div>
 
@@ -18,12 +18,13 @@ export default function Mainpage() {
             Big prize
           </p>
         </div>
-        <button>Register</button>
+        <button style={{marginTop:'2.3rem'}}>Register</button>
         <div>
           <h1 className="countdown">
             00<span>h</span> 00<span>m</span> 00<span>s</span>
           </h1>
         </div>
+        <div className='man_image'></div>
       </div>
 
       <div className="page2">

@@ -41,7 +41,7 @@
   word-wrap: break-word;
 }
 
-.button_nav {
+button{
   width: 172px;
   height: 53px;
   border-radius: 4px;

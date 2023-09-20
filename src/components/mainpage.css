@@ -5,18 +5,17 @@
   font-style: italic;
   font-weight: 700;
   line-height: normal;
-  margin-left: 715px;
+  text-align: right;
   margin-right: 55px;
 }
 
 .title {
   margin-left: 128px;
   width: 722px;
-  height: 236px;
 }
 
 .getlink_h1 {
-    position: relative;
+  position: relative;
   color: #fff;
   font-family: Clash Display;
   font-size: 80px;
@@ -51,7 +50,7 @@
 }
 
 .title_div{
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .title_p{

@@ -3,28 +3,32 @@ import "./mainpage.css";
 export default function Mainpage() {
   return (
     <div className="mainpage">
-      <div style={{position:'relative'}}>
-        <h2 className="first_h2">Igniting a Revolution in HR Innovation</h2>
-      </div>
+      <div className='page1'>
+        <div style={{ position: "relative" }}>
+          <h2 className="first_h2">Igniting a Revolution in HR Innovation</h2>
+        </div>
 
-      <div className="title">
-        <h1 className="getlink_h1">getlinked Tech</h1>
-        <h1 className="hackathon_h1">
-          Hackathon <span className="one">1.0</span>
-        </h1>
-        <div className="title_div">
-          <p className="title_p">
-            Participate in getlinked tech Hackathon 2023 stand a chance to win a
-            Big prize
-          </p>
-        </div>
-        <button style={{marginTop:'2.3rem'}}>Register</button>
-        <div>
-          <h1 className="countdown">
-            00<span>h</span> 00<span>m</span> 00<span>s</span>
+        <div className="title">
+          <h1 className="getlink_h1">getlinked Tech</h1>
+          <h1 className="hackathon_h1">
+            Hackathon <span className="one">1.0</span>
           </h1>
+          <div className="title_div">
+            <p className="title_p">
+              Participate in getlinked tech Hackathon 2023 stand a chance to win
+              a Big prize
+            </p>
+          </div>
+          <button style={{ marginTop: "0rem" }}>Register</button>
+          <div>
+            <h1 className="countdown">
+              00<span>h</span> 00<span>m</span> 00<span>s</span>
+            </h1>
+          </div>
+          <div className="man_image">
+            <img src="../../assets/man.png" />
+          </div>
         </div>
-        <div className='man_image'></div>
       </div>
 
       <div className="page2">
@@ -154,28 +158,48 @@ export default function Mainpage() {
 
       <div className="page7">
         <h2>Prizes and Rewards</h2>
-        <p>Highlight of the prizes or rewards for winners and for participants.</p>
-
+        <p>
+          Highlight of the prizes or rewards for winners and for participants.
+        </p>
       </div>
 
       <div className="page8">
         <h2>Partners and Sponsors</h2>
-        <p>Getlinked Hackathon 1.0 is honored to have the following major companies as its partners and sponsors</p>
+        <p>
+          Getlinked Hackathon 1.0 is honored to have the following major
+          companies as its partners and sponsors
+        </p>
       </div>
 
       <div className="page9">
         <h2>Privacy Policy and Terms</h2>
         <h4>Last updated on September 12, 2023</h4>
-        <p>Below are our privacy & policy, which outline a lot of goodies. it’s our aim to always take of our participant</p>
+        <p>
+          Below are our privacy & policy, which outline a lot of goodies. it’s
+          our aim to always take of our participant
+        </p>
 
         <div className="page9_div1">
-          <p>At getlinked tech Hackathon 1.0, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you participate in our tech hackathon event. By participating in our event, you consent to the practices described in this policy.</p>
+          <p>
+            At getlinked tech Hackathon 1.0, we value your privacy and are
+            committed to protecting your personal information. This Privacy
+            Policy outlines how we collect, use, disclose, and safeguard your
+            data when you participate in our tech hackathon event. By
+            participating in our event, you consent to the practices described
+            in this policy.
+          </p>
 
           <h2>Licensing Policy</h2>
           <h3>Here are terms of our Standard License:</h3>
           <ul>
-            <li>The Standard License grants you a non-exclusive right to navigate and register for our event</li>
-            <li>You are licensed to use the item available at any free source sites, for your project developement</li>
+            <li>
+              The Standard License grants you a non-exclusive right to navigate
+              and register for our event
+            </li>
+            <li>
+              You are licensed to use the item available at any free source
+              sites, for your project developement
+            </li>
           </ul>
         </div>
       </div>

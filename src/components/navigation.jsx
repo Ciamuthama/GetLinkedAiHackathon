@@ -4,19 +4,21 @@ import "./navigation.css";
 
 export default function Navigation() {
   return (
-    <div className='navigation'>
-          <div>
-              <p className="getlinked">get<span className="linked">linked</span></p>
+    <div className="navigation">
+      <div>
+        <p className="getlinked">
+          get<span className="linked">linked</span>
+        </p>
       </div>
-      <ul className="unorderlist">
-        <li>Timeline</li>
-        <li>Overview</li>
-        <li>FAQs</li>
-        <li>Contact</li>
-          </ul>
-          <button className="containerRegister">
-              <p className='register'>Register</p>
-          </button>
+      <div className="main_nav">
+        <h2>Timeline</h2>
+        <h2>Overview</h2>
+        <h2>FAQs</h2>
+        <h2>Contact</h2>
+        <button className='button_nav'>
+          <h2>Register</h2>
+        </button>
+      </div>
     </div>
   );
 }

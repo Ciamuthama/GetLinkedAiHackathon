@@ -3,99 +3,143 @@ import "./mainpage.css";
 export default function Mainpage() {
   return (
     <div className="mainpage">
-      <div className='page1'>
+      <div className="page1">
         <div style={{ position: "relative" }}>
           <h2 className="first_h2">Igniting a Revolution in HR Innovation</h2>
+          <img src="../../assets/Vector4.svg" style={{ position: 'absolute',right: '3.65rem', top: '2.7rem'}} />
         </div>
 
         <div className="title">
-          <h1 className="getlink_h1">getlinked Tech</h1>
-          <h1 className="hackathon_h1">
-            Hackathon <span className="one">1.0</span>
-          </h1>
-          <div className="title_div">
-            <p className="title_p">
-              Participate in getlinked tech Hackathon 2023 stand a chance to win
-              a Big prize
-            </p>
-          </div>
-          <button style={{ marginTop: "0rem" }}>Register</button>
           <div>
-            <h1 className="countdown">
-              00<span>h</span> 00<span>m</span> 00<span>s</span>
+            <h1 className="getlink_h1">getlinked Tech</h1>
+            <img src='../../assets/creative1.png' style={{right:' 41rem', position: 'absolute', top: '6.5rem',}} />
+            <h1 className="hackathon_h1">
+              Hackathon<span className="one">1.0</span>
+              <img src='../../assets/chain.png' style={{width:'5.8rem',right:'-4.5rem',position:' absolute',}}/>
+              <img src="../../assets/spark.png" style={{position:'absolute', width: '5rem', right: '-9.8rem', top:' 0rem',zIndex: '100',}} />
             </h1>
+            <div className="title_div">
+              <p className="title_p">
+                Participate in getlinked tech Hackathon 2023 stand a chance to
+                win a Big prize
+              </p>
+            </div>
+            <button style={{ marginTop: "0rem" }}>Register</button>
+            <div>
+              <h1 className="countdown">
+                00<span>h</span> 00<span>m</span> 00<span>s</span>
+              </h1>
+            </div>
           </div>
           <div className="man_image">
-            <img src="../../assets/man.png" />
+            <img src="../../assets/man.png"/>
+            <img src='../../assets/starball.png' style={{position:'absolute',top: '-1.5rem',filter: 'none',right: '0px',width: '37rem'}}/>
           </div>
         </div>
       </div>
 
       <div className="page2">
-        <h2>Introduction to getlinked tech Hackathon 1.0</h2>
-        <p>
-          Our tech hackathon is a melting pot of visionaries, and its purpose is
-          as clear as day: to shape the future. Whether you're a coding genius,
-          a design maverick, or a concept wizard, you'll have the chance to
-          transform your ideas into reality. Solving real-world problems,
-          pushing the boundaries of technology, and creating solutions that can
-          change the world, that's what we're all about!
-        </p>
+        <div className="page2_content1">
+          <img src='../../assets/thebigidea.png'/>
+        </div>
+        <div className="page2_content2">
+          <h2 className="page2_h2">
+            Introduction to getlinked <span>tech Hackathon 1.0</span>
+          </h2>
+          <p className="page2_p">
+            Our tech hackathon is a melting pot of visionaries, and its purpose
+            is as clear as day: to shape the future. Whether you're a coding
+            genius, a design maverick, or a concept wizard, you'll have the
+            chance to transform your ideas into reality. Solving real-world
+            problems, pushing the boundaries of technology, and creating
+            solutions that can change the world, that's what we're all about!
+          </p>
+        </div>
       </div>
+      <span className="line"></span>
+
       <div className="page3">
-        <h2>Rules and Guidelines</h2>
-        <p>
+       <div> <h2 className="page3_h2">
+          Rules and <span>Guidelines</span>
+        </h2>
+        <p className="page3_p">
           Our tech hackathon is a melting pot of visionaries, and its purpose is
           as clear as day: to shape the future. Whether you're a coding genius,
           a design maverick, or a concept wizard, you'll have the chance to
           transform your ideas into reality. Solving real-world problems,
           pushing the boundaries of technology, and creating solutions that can
           change the world, that's what we're all about!
-        </p>
+        </p></div>
+        <div>
+          <img src='../../assets/lady.png' />
+          <img src='../../assets/Ellipse1.svg' style={{position: 'absolute', top: '6rem',zIndex: '-1', left:'61rem'}} />
+        </div>
       </div>
+      <span className="line"></span>
 
       <div className="page4">
-        <h2>Judging Criteria Key attributes</h2>
+        <div>
+          <img src='../../assets/judge.png'/>
+        </div>
+       <div> <h2 className='page4_h2'>Judging Criteria <span>Key attributes</span></h2>
         <p>
-          Innovation and Creativity: Evaluate the uniqueness and creativity of
+          <span>Innovation and Creativity:</span> Evaluate the uniqueness and creativity of
           the solution. Consider whether it addresses a real-world problem in a
           novel way or introduces innovative features.
         </p>
         <p>
-          Functionality: Assess how well the solution works. Does it perform its
+          <span>Functionality:</span> Assess how well the solution works. Does it perform its
           intended functions effectively and without major issues? Judges would
           consider the completeness and robustness of the solution.
         </p>
         <p>
-          Impact and Relevance: Determine the potential impact of the solution
+          <span>Impact and Relevance:</span> Determine the potential impact of the solution
           in the real world. Does it address a significant problem, and is it
           relevant to the target audience? Judges would assess the potential
           social, economic, or environmental benefits.
         </p>
         <p>
-          Technical Complexity: Evaluate the technical sophistication of the
+          <span>Technical Complexity:</span> Evaluate the technical sophistication of the
           solution. Judges would consider the complexity of the code, the use of
           advanced technologies or algorithms, and the scalability of the
           solution.
         </p>
         <p>
-          Technical Complexity: Evaluate the technical sophistication of the
+          <span>Technical Complexity:</span> Evaluate the technical sophistication of the
           solution. Judges would consider the complexity of the code, the use of
           advanced technologies or algorithms, and the scalability of the
           solution.
         </p>
-        <button>Read More</button>
+        <button style={{marginTop:'55px'}}>Read More</button>
+        </div>
       </div>
+      <span className="line"></span>
 
       <div className="page5">
-        <h2>Frequently Ask Question</h2>
-        <p>Can I work on a project I started before the hackathon?</p>
-        <p>What happens if I need help during the hackathon?</p>
-        <p>What happens if I need help during the hackathon?</p>
-        <p>Can I join a team or do I have to come with one?</p>
-        <p>What happens after the hackathon ends</p>
-        <p>Can I work on a project I started before the hackathon?</p>
+        <div>
+          <div className='page5_div_h2_p'>
+        <h2>Frequently Ask <span>Question</span></h2>
+            <p>We got answers to the questions that you might want to ask about <strong>getlinked Hackathon 1.0</strong></p>
+          </div>
+        
+        <div className="page5_div_p"><p>Can I work on a project I started before the hackathon? <span>+</span></p>
+        <p>What happens if I need help during the hackathon? <span>+</span></p>
+        <p>What happens if I need help during the hackathon? <span>+</span></p>
+        <p>Can I join a team or do I have to come with one? <span>+</span></p>
+        <p>What happens after the hackathon ends <span>+</span></p>
+          <p>Can I work on a project I started before the hackathon? <span>+</span></p></div>
+        </div>
+        <div>
+        <div className='questions'>
+        <span className='q1'>?</span>
+         <span className='q2'>?</span>
+         <span className="q3">?</span>
+        </div>
+          <img src='../../assets/cwok.png' />
+        </div>
       </div>
+      <span className="line"></span>
+
       <div className="page6">
         <h2>Timeline</h2>
         <p>

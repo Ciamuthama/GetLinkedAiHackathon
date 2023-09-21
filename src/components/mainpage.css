@@ -1,6 +1,11 @@
-.page1{
+.line {
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+.page1 {
   position: relative;
-  border-bottom:1px solid rgba(255, 255, 255, 0.18) ;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .first_h2 {
@@ -16,7 +21,8 @@
 
 .title {
   margin-left: 128px;
-  width: 722px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .getlink_h1 {
@@ -27,8 +33,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
- margin:0;
- top:91px;
+  margin: 0;
+  top: 91px;
+  width: max-content;
   height: 91px;
 }
 
@@ -54,23 +61,23 @@
   line-height: normal;
 }
 
-.title_div{
+.title_div {
   margin-top: 80px;
 }
 
-.title_p{
-color: #FFF;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 166%;
-width:522px;
-height:66px;
+.title_p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166%;
+  width: 522px;
+  height: 66px;
 }
 
-.countdown{
-  color: #FFF;
+.countdown {
+  color: #fff;
   font-family: Unica One;
   font-size: 64px;
   font-style: normal;
@@ -81,22 +88,193 @@ height:66px;
   margin-bottom: 5rem;
 }
 
-.countdown span{
-color: #FFF;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 133%; 
+.countdown span {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
 }
 
-.man_image{
-  top: 7.2rem;
-  filter: grayscale(1);
-  position: absolute;
+.man_image {
+  top: 4.4rem;
+  position: relative;
   right: 0rem;
+  overflow: hidden;
+  height: 33.7rem;
 }
 
-.man_image img{
-  width:41rem;
+.man_image img {
+  width: 39rem;
+  filter: grayscale(1);
+}
+
+.page2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 169px;
+  margin-right: 169px;
+}
+
+h2 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.page2_h2 {
+  width: 398px;
+}
+
+span {
+  color: #d434fe;
+}
+
+p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px;
+}
+
+.page2_p,
+.page3_p {
+  width: 535px;
+}
+
+.page3 {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  position: relative;
+  left: 169px;
+}
+
+.page3_h2 {
+  width: 170px;
+}
+
+.page4 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 14.5rem;
+}
+
+.page4_h2 {
+  width: 267px;
+}
+
+.page4_h2 span {
+  font-size: 32px !important;
+  color: #d434fe;
+}
+
+.page4 p {
+  width: 533px;
+}
+
+.page4 span {
+  color: #d434fe;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.page5 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 169px;
+  top: 4.625rem;
+  margin-bottom: 166px;
+}
+
+.questions {
+  position: relative;
+  display: flex;
+  left: 4rem;
+  bottom: -2rem;
+}
+
+.q1{
+  color: #a866fd;
+  font-family: MADE TOMMY Outline;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 500;
+  width: 171px;
+  height: 71px;
+  line-height: 27.5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.q2 {
+  color: #d434fe;
+  font-family: MADE TOMMY Outline;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27.5px;
+   
+}
+
+.q3 {
+  color: #a866fd;
+  font-family: MADE TOMMY Outline;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27.5px;
+  width: 171px;
+  height: 71px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.page5_div_h2_p{
+  margin-bottom: 68px;
+}
+
+.page5_div_h2_p h2{
+  width:253px ;
+  color: #FFF;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.page5_div_h2_p p{
+  width: 342px;
+}
+
+.page5_div_p p{
+  margin-bottom: 21px;
+  border-bottom: 1px solid #D434FE;
+  width: 427px;
+  height: 37px;
+}
+
+.page5_div_p span{
+  color: #D434FE;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px;
+  float: right;
+}
+
+strong{
+  font-weight: 700;
 }

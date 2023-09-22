@@ -141,70 +141,113 @@ export default function Mainpage() {
       <span className="line"></span>
 
       <div className="page6">
-        <h2>Timeline</h2>
-        <p>
+        <h2 className='page6_h2'>Timeline</h2>
+        <p className='page6_p1'>
           Here is the breakdown of the time we anticipate using for the upcoming
           event.
         </p>
         <aside className="aside_page6">
           <div className="aside_div1">
-            <h2>Hackathon Announcement</h2>
+           <div> <h2>Hackathon Announcement</h2>
             <p>
-              The getlinked tech hackathon 1.0 is formally announced to the
+              The getlinked tech hackathon 1.0 is formally announced <br/>to the
               general public and teams begin to get ready to register
-            </p>
+              </p></div>
+              <div className='div_wrapper'>
+                <div className='line_div'></div>
+              <span className="line_span">1</span>
+            </div>
             <h3>November 18, 2023</h3>
           </div>
 
           <div className="aside_div2">
-            <h2>Teams Registration begins</h2>
+            <h3>November 18, 2023</h3>
+            <div className='div_wrapper'>
+                <div className='line_div'></div>
+              <span className="line_span">1</span>
+            </div>
+           <div> <h2>Teams Registration begins</h2>
             <p>
               Interested teams can now show their interest in the getlinked tech
               hackathon 1.0 2023 by proceeding to register
-            </p>
-            <h3>November 18, 2023</h3>
+            </p></div>
           </div>
 
           <div className="aside_div3">
-            <h2>Teams Registration ends</h2>
-            <p>Interested Participants are no longer Allowed to register</p>
+            <div><h2>Teams Registration ends</h2>
+              <p>Interested Participants are no longer Allowed to register</p></div>
+              <div className='div_wrapper'>
+                <div className='line_div'></div>
+              <span className="line_span">1</span>
+            </div>
             <h3>November 18, 2023</h3>
           </div>
 
           <div className="aside_div4">
-            <h2>Announcement of the accepted teams and ideas</h2>
+            <h3>November 18, 2023</h3>
+            <div className='div_wrapper'>
+                <div className='line_div'></div>
+              <span className="line_span">1</span>
+            </div>
+           <div> <h2>Announcement of the accepted teams and ideas</h2>
             <p>
               All teams whom idea has been accepted into getlinked tech
               hackathon 1.0 2023 are formally announced
-            </p>
-            <h3>November 18, 2023</h3>
+            </p></div>
           </div>
 
           <div className="aside_div5">
-            <h2>Getlinked Hackathon 1.0 Offically Begins</h2>
+           <div> <h2>Getlinked Hackathon 1.0 Offically Begins</h2>
             <p>
               Accepted teams can now proceed to build their ground breaking
               skill driven solutions
-            </p>
+            </p></div>
+            <div className='div_wrapper'>
+                <div className='line_div'></div>
+              <span className="line_span">1</span>
+            </div>
             <h3>November 18, 2023</h3>
           </div>
 
           <div className="aside_div6">
-            <h2>Demo Day</h2>
+            <h3>November 18, 2023</h3>
+            <div className='div_wrapper'>
+                <div className='line_div'></div>
+              <span className="line_span">1</span>
+            </div>
+           <div> <h2>Demo Day</h2>
             <p>
               Teams get the opportunity to pitch their projects to judges. The
               winner of the hackathon will also be announced on this day
-            </p>
-            <h3>November 18, 2023</h3>
+            </p></div>
           </div>
         </aside>
       </div>
 
+      
       <div className="page7">
-        <h2>Prizes and Rewards</h2>
+       <div> <h2>Prizes and <span>Rewards</span></h2>
         <p>
           Highlight of the prizes or rewards for winners and for participants.
         </p>
+        </div>
+        <div className='prizes'>
+          <img src='../../assets/award.png' className='award'/>
+          <div className='medals'>
+              <div className='silver'><img src='../../assets/silver.png'/>
+              <h3>2nd <span>Runner</span></h3> 
+              <h5>N300,000</h5>
+            </div>
+            <div className='gold'><img src='../../assets/gold.png' />
+            <h3>1nd <span>Runner</span></h3> 
+              <h5>N450,000</h5>
+            </div>
+            <div className='bronze'><img src='../../assets/bronze.png' />
+            <h3>3nd <span>Runner</span></h3> 
+              <h5>N150,000</h5>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="page8">
@@ -213,10 +256,18 @@ export default function Mainpage() {
           Getlinked Hackathon 1.0 is honored to have the following major
           companies as its partners and sponsors
         </p>
+        <div className='ps'>
+          <img src='../../assets/Libertycompany.png' className='liberty'/>
+          <img src='../../assets/Libertycompanywhite.png' className='libertywhite'/>
+          <img src='../../assets/Winwiselogo.png' className='winwise'/>
+          <img src='../../assets/wisperlogo.png' className='wisper'/>
+          <img src='../../assets/Paybox.png' className='paybox'/>
+          <img src='../../assets/VuzualPlus.png' className='vuzual'/>
+        </div>
       </div>
 
       <div className="page9">
-        <h2>Privacy Policy and Terms</h2>
+        <h2>Privacy Policy and <span>Terms</span></h2>
         <h4>Last updated on September 12, 2023</h4>
         <p>
           Below are our privacy & policy, which outline a lot of goodies. it’s

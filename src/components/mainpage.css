@@ -278,3 +278,516 @@ p {
 strong{
   font-weight: 700;
 }
+
+.page6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6.18rem;
+}
+
+.page6_h2{
+margin-top: 4.5rem;
+color: #FFF;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+text-align: center;
+}
+
+.page6_p1{
+margin-top: 0.75rem;
+width: 21.625rem;
+  color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+text-align: center;
+font-weight: 400;
+line-height: 172.4%; 
+}
+
+.page6 h2{
+color: #D434FE;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.aside_page6{
+  position: relative;
+  top: 5.69rem;
+  left: 2.5rem;
+}
+
+.aside_div1 div{
+  width: fit-content;
+}
+
+
+.aside_div1 p{
+  right: 5.9rem;
+  text-align: right;
+  font-size: 0.875rem;
+  width: 27.25rem;
+  position: relative;
+}
+
+h3{
+  color: #D434FE;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 27.25rem;
+}
+
+.div_wrapper{
+  display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.line_div{
+  border-right:  0.25rem solid #D434FE ;
+  display: block;
+  height: 8.5625rem;
+}
+
+/* .line_div, .aside_div2,.aside_div3,.aside_div4,.aside_div5,.aside_div6{
+height: 5.375rem;
+} */
+
+.line_span{
+  display: flex;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  line-height: normal;
+  width: 3.3125rem;
+  height: 3.3125rem;
+  border-radius: 1.65625rem;
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+  align-items: center;
+  justify-content: center;
+}
+
+
+.aside_div1,.aside_div2,.aside_div3,.aside_div4,.aside_div5,.aside_div6{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.aside_div1 h3{
+  position: relative;
+  left: 5.38rem;
+}
+
+
+
+.aside_div2 div{
+ position: relative;
+}
+
+.aside_div2 h2{
+  position: relative;
+  left: 6.8rem;
+}
+
+.aside_div2 h3{
+  text-align: end;
+  right: 4.4rem;
+  position: relative;
+}
+
+.aside_div2 p{
+  position: relative;
+  font-size: 1rem;
+  width: 30.125rem;
+  left: 6.8rem;
+}
+
+.aside_div2 .div_wrapper{
+  
+  top: 1.25rem;
+}
+
+.aside_div3 h2{
+  position: relative;
+    left: 3.5rem;
+}
+
+.aside_div3 p{
+  text-align: right;
+  font-size: 1rem;
+  width: 24.25rem;
+  position: relative;
+  right: 1.4rem;
+}
+
+.aside_div3 h3{
+  position: relative;
+  left: 9.7rem;
+}
+
+.aside_div3 .div_wrapper{
+  position: relative;
+  left: 3rem;
+  bottom: -2rem;
+}
+
+.aside_div4 h2{
+  width: 30.325rem;
+  position: relative;
+  left: 6.8rem;
+}
+
+.aside_div4 h3{
+  position: relative;
+  left: 8.2rem;
+}
+
+.aside_div4 p{
+  font-size: 1rem;
+  left: 6.8rem;
+    position: relative;
+    width: 30.3125rem;
+}
+
+.aside_div4 .div_wrapper{
+  position: relative;
+  bottom: -3rem;
+}
+
+.aside_div5 h2{
+  width: 31.9375rem;
+    position: relative;
+    right: 8.8rem;
+}
+
+.aside_div5 h3{
+  position: relative;
+  left: 3rem;
+}
+
+.aside_div5 p{
+  width: 24.125rem;
+    text-align: right;
+    font-size: 1rem;
+    position: relative;
+    right: 1.2rem;
+}
+
+.aside_div5 .div_wrapper{
+  position: relative;
+  left: -4.7rem;
+  bottom: -4rem;
+}
+
+.aside_div6 h2{
+  position: relative;
+  left: 7.6rem;
+}
+
+.aside_div6 h3{
+  position: relative;
+  left: 8.4rem;
+}
+
+.aside_div6 p{
+  width: 30.0625rem;
+  position: relative;
+  left: 7.8rem;
+}
+
+.aside_div6 .div_wrapper{
+  position: relative;
+  bottom: -4rem;
+}
+
+.page7{
+  margin-bottom:8rem;
+}
+
+.prizes{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-left: 2.75rem;
+}
+
+.award{
+  width: 34.25rem;
+height: 30.125rem;
+}
+
+.page7 h2{
+  width:10.875rem;
+  margin-left:53.62rem;
+}
+
+.page7 p{
+  margin-left:53.62rem;
+  width: 25.0625rem;
+}
+
+.medals{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 15rem;
+}
+
+.silver{
+  display: flex;
+  width: 13.25rem;
+  height: 18.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #D434FE;
+  background: rgba(212, 52, 254, 0.12);
+  flex-direction: column;
+  align-items: center;
+}
+
+.silver img{
+  width: 11.1875rem;
+  height: 11.25rem;
+  position: relative;
+  bottom: 5.3rem;
+}
+
+.medals h3{
+width:5.75rem;
+color: #FFF;
+font-family: Montserrat;
+font-size: 2.25rem;
+text-align:center;
+font-weight: 700;
+margin: 0;
+}
+
+.medals span{
+  color: #FFF;
+font-size: 1.5rem;
+font-weight: 600;
+}
+
+.medals h5{
+  color: #D434FE;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  width: auto;
+}
+
+.gold{
+  border-radius: 0.5rem;
+border: 1px solid #903AFF;
+background: rgba(144, 58, 255, 0.12);
+width: 13.25rem;
+height: 21.6875rem;
+flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.gold img{
+  width: 18.5rem;
+  height: 18.5rem;
+  position: relative;
+  bottom: 10.3rem;
+}
+
+.gold h3, .gold h5{
+  position:relative;
+  bottom:8.3rem;
+}
+
+.bronze{
+  border-radius: 0.5rem;
+border: 1px solid #D434FE;
+background: rgba(212, 52, 254, 0.12);
+width: 13.25rem;
+height: 18.5rem;
+flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.silver h3, .silver h5,.bronze h3, .bronze h5{
+  position:relative;
+  bottom:3.3rem;
+}
+
+.bronze img{
+  width: 11.1875rem;
+  height: 11.25rem;
+  position: relative;
+  bottom: 5.3rem;
+}
+
+.page8{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+margin-top:2.17rem;
+}
+
+.page8 h2{
+  color: #FFF;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.71875rem;
+width:23.5rem;
+}
+
+.page8 p{
+  color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; 
+width:28.25rem;
+}
+
+.ps{
+display:flex;
+flex:wrap;
+justify-content:center;
+width:78.45rem;
+height: 35rem;
+border-radius: 0.3125rem;
+border: 1px solid #D434FE;
+background: rgba(255, 255, 255, 0.01);
+}
+
+.liberty{
+  width:7.54rem;
+  height:7.123rem;
+  border-bottom:2px solid #d434fe;
+}
+
+
+
+.libertywhite{
+     width: 13.324rem;
+    height: 2.527rem;
+    border-left:2px solid #d434fe;
+    border-right:2px solid #d434fe;
+}
+
+.winwise{
+  width:8.224rem;
+  height:6.71rem;
+  border-bottom:2px solid #d434fe;
+}
+
+.wisper{
+  width:9.1892rem;
+  height:6.84595rem;
+  border-top:2px solid #d434fe;
+}
+
+.paybox{
+  width: 12.77299rem;
+  height:1.28649rem;
+  border-top:2px solid #d434fe;
+  border-left:2px solid #d434fe;
+}
+
+.vuzual{
+  width:14.4375rem;
+  height:1.3125rem;
+border-right:2px solid #d434fe;
+}
+
+.page9{
+  display:flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.page9 h2{
+  color: #FFF;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width:18.75rem;
+}
+
+.page9 h4{
+  color: rgba(255, 255, 255, 0.75);
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem;
+}
+
+.page9 p{
+margin-top:1.88rem;
+width:27.375rem;
+font-size: 0.875rem;
+font-weight: 400;
+line-height: 188.4%;
+}
+
+.page9_div1{
+  border-radius: 0.3125rem;
+border: 1px solid #D434FE;
+background: rgba(217, 217, 217, 0.03);
+width: 35.5625rem;
+height: 38rem;
+}
+
+.page9_div1 p{
+  font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 216.4%;
+}
+
+.page9_div1 h2{
+  color:#D434FE;
+  font-family:montserrat;
+  font-size:16px;
+  font-weight:700px;
+  line-height:34.624px;
+  width:auto;
+}
+
+.page9_div1 h3{
+  color:#fff;
+  font-family: Montserrat;
+  font-size:14px;
+  font-weight:700;
+  line-height:30.290px;
+}
+
+.page9_div1 li{
+color:#fff;
+font-family: Montserrat;
+font: size 14px;font-weight:500;
+line-height:30.296px;
+}
+
+.page9_div li::before{
+content: url('');
+}

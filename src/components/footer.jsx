@@ -9,7 +9,7 @@ export default function Footer() {
              <p>Getlinked Tech Hackathon is a technology innovation program established by a group of organizations with the aim of showcasing young and talented individuals in the field of technology</p>     
               </div>
               
-              <div className='footer_list1'>
+             <div> <div className='footer_list1'>
                   <h2>Useful Links</h2>
                   <ul>
                     <li>Overview</li>
@@ -18,8 +18,23 @@ export default function Footer() {
                       <li>Register</li>
                   </ul>
               </div>
-              
-              <div>
+              <div className='footer_list2'>
+                  <h2>Contact Us</h2>
+                  <ul>
+                    <li>+234 697 81819</li>
+                    <li>27,Alara Street Yaba 100012 Lagos State</li>
+                      <li>FAQs</li>
+                      <li>Register</li>
+                  </ul>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <h1></h1>
+          </div>
+              </div>
+
           </div>  
     </>
   )

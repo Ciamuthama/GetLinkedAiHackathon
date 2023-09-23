@@ -27,8 +27,8 @@ export default function Navigation() {
         <h2>Timeline</h2>
         <h2>Overview</h2>
         <h2>FAQs</h2>
-        <h2 onClick={()=> window.location.href='./pages/contactpage.jsx'}>Contact</h2>
-        <button className='button_nav' onClick={()=> window.location.href='./pages/Registerpage.jsx'}>
+        <h2 onClick={()=> window.location.href='./pages/contactpage'}>Contact</h2>
+        <button className='button_nav' onClick={()=> window.location.href='./pages/Registerpage'}>
           Register
         </button></div></div>
       </div>

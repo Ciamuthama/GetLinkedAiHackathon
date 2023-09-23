@@ -81,6 +81,7 @@ button {
   .main_nav {
     flex-direction: column;
     gap: 5rem;
+    width:100%;
     background: #150e28;
     backdrop-filter: blur(30px);
   }

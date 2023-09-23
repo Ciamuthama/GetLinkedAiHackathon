@@ -1,0 +1,200 @@
+.main_reg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.lens1 {
+  width: clamp(24.75rem,50%,64.8125rem);
+  height: clamp( 27.625rem,50%,59.25rem);
+  background: url("../../../public/assets/Lens.png"),
+    lightgray -204.25px 7px / 119.817% 104.852% no-repeat;
+  background-blend-mode: hard-light;
+}
+
+.man_reg {
+  width: clamp(12.1875rem,50%,44.8125rem);
+  height: clamp(9.6875rem,50%,44.8125rem);
+}
+
+.container {
+  width: 46.25rem;
+  height: 46.25rem;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+.container_h2 {
+  width: clamp(4.125rem, 50%, 9rem);
+  color: #d434fe;
+  font-size: clamp(0.9375rem, 50%, 3rem);
+  font-family: Clash Display;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.container_p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: clamp(0.75rem, 50%, 0.9rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 17.875rem;
+}
+
+.walkers {
+  border-bottom: 6.3125rem solid #d434fe;
+  border-style: dashed;
+}
+
+.walkers img{
+    width: clamp(1.43381rem,50%,1.625rem);
+    height:clamp(1.43381rem,50%,1.625rem)
+}
+
+.intro_h1 {
+  width: 19.25rem;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: clamp(1.25rem, 50%, 2rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+label {
+  width: clamp(5.625rem, 50%, 6.2rem);
+  text-align: left;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: clamp(0.88rem, 50%, 0.8125rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+input {
+  border-radius: 0.25rem;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 16.4375rem;
+  height: clamp(2.4375rem, 50%, 3rem);
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.25);
+  font-family: Montserrat;
+  font-size: clamp(0.8125rem, 50%, 0.875rem);
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+select {
+  border-radius: 0.25rem;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: clamp(9.6875rem, 50%, 16.4375rem);
+  height: clamp(2.4375rem, 50%, 2.9375rem);
+}
+
+select::placeholder {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: clamp(0.75rem, 50%, 0.875rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: clamp(7.8125rem, 50%, 9.125rem);
+}
+
+select::placeholder::after {
+  content: url();
+}
+
+.button_form {
+  border-radius: 0.25rem;
+  border: 0rem;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+  width: clamp(10.75rem,50%,34.875rem);
+  height: clamp(3.3125rem,50%,3.3125rem);
+  text-align: center;
+}
+
+.form_h5{
+    color: #FF26B9;
+font-family: Montserrat;
+font-weight: 400;
+line-height: normal;
+font-size: clamp(0.5625rem,50%,0.75rem);
+font-style: italic;
+}
+
+.termsandcondition{
+display: inline-flex;
+gap: 1rem;
+color: #FFF;
+font-family: Montserrat;
+font-size: clamp(0.625rem,50%,0.75rem);
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: clamp(15.125rem,50%,25.1875rem);
+}
+
+.lens2 {
+  background: url("../../../public/assets/Lens.png"),
+    lightgray -204.25px 7px / 119.817% 104.852% no-repeat;
+  background-blend-mode: hard-light;
+  width: 64.8125rem;
+  height: 59.25rem;
+}
+
+@media screen and (min-width: 746px) {
+  .main_reg {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container {
+    width: auto;
+    height: auto;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  form {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .groupsize {
+    width: 5.4375rem !important;
+    height: 2.4375rem !important;
+  }
+
+  .walkers{
+    border-bottom: 5.56988rem solid #d434fe;
+  }
+
+  .lens2{
+    display: none;
+  }
+}

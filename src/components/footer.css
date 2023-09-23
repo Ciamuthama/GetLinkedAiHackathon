@@ -1,0 +1,120 @@
+.footer_getlinked h2{
+    color: #FFF;
+font-family: Clash Display;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width:8.9375rem;
+}
+
+.footer_getlinked span{
+    color: #D434FE;
+}
+
+.footer_getlinked p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%;
+    width:25.75rem;
+}
+
+.footer_list1 h2{
+width:5.5rem;
+color: #D434FE;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 172.4%;
+}
+
+.footer_list1 ul{
+    display:flex;
+    flex-direction:column;
+list-style-type: none;
+}
+
+.footer_list1 li{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 172.4%;
+}
+
+.footer_list2 h2{
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 172.4%;
+}
+
+.footer_list2 ul{
+    display:flex;
+    flex-direction:column;
+list-style-type: none;
+}
+
+.footer_list2 li{
+    width:5.5rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+.terms{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%; 
+    width:11.625rem;
+}
+
+.terms span{
+    border-left: 0.125rem solid #D434FE;
+    height: 1.0625rem;
+}
+
+.socials{
+    display: flex;
+    flex-direction:row;
+    gap: 1rem;
+}
+
+.socials h3{
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width:3.625rem;
+}
+
+.socials img{
+    width:1.5rem;
+    height:1.5rem;
+}
+
+.last_text{
+color: #FFF;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align:center;
+}

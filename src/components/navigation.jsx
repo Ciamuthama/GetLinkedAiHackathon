@@ -1,8 +1,15 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
+import React, { useState } from "react";
 import "./navigation.css";
 
 export default function Navigation() {
+
+  const[isOpen,setIsOpen] = useState(false)
+
+  const handleMenu = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
     <div className="navigation">
       <div>
@@ -10,14 +17,18 @@ export default function Navigation() {
           get<span className="linked">linked</span>
         </p>
       </div>
-      <div className="main_nav">
+
+      <div className={`main_nav ${isOpen ? 'open':'desktop'}`}>
+        <img src='../../assets/nav_icon.svg' style={{color:'white'}} onClick={handleMenu}/>
+        <div className="mobile_use_close">
+        <img src="../../assets/close.svg" />
         <h2>Timeline</h2>
         <h2>Overview</h2>
         <h2>FAQs</h2>
         <h2>Contact</h2>
         <button className='button_nav'>
           Register
-        </button>
+        </button></div>
       </div>
     </div>
   );

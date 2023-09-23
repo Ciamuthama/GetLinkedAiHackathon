@@ -1,0 +1,142 @@
+.lens1 {
+    width: clamp(24.75rem,50%,64.8125rem);
+    height: clamp( 27.625rem,50%,59.25rem);
+    background: url("../../../public/assets/Lens.png"),
+      lightgray -204.25px 7px / 119.817% 104.852% no-repeat;
+    background-blend-mode: hard-light;
+}
+
+
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2 {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h3 {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: clamp(0.75rem, 50%, 1rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 17rem;
+}
+
+.emailfor {
+  display: none;
+}
+
+h4 {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 1.25rem;
+  width: clamp(12.1875rem, 50%, 18.8125);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+li img {
+  width: clamp(1.03488rem,50%,1.5rem);
+  height: clamp( 1.03488rem,50%,1.5rem);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  border-radius: 0.25rem;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: clamp(18.625rem,50%,27.3125rem);
+  height: 2.9375rem;
+}
+
+textarea {
+  border-radius: 0.25rem;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: clamp(18.625rem,50%,27.3125rem);
+  height: clamp(10rem,50%,7.4375rem);
+}
+
+::placeholder {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.submit {
+  width: 10.75rem;
+  height: 3.3125rem;
+  border-radius: 0.25rem;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+}
+
+.lens2 {
+    background: url("../../../public/assets/Lens.png"),
+      lightgray -204.25px 7px / 119.817% 104.852% no-repeat;
+    background-blend-mode: hard-light;
+    width: 64.8125rem;
+    height: 59.25rem;
+}
+
+@media screen and (min-width: 746px) {
+  .container2 {
+    flex-direction: column-reverse;
+  }
+
+  .desktop_only {
+    display: none;
+  }
+
+  .emailfor {
+    display: block;
+    width: 14.9375rem;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .lens2{
+    display: none;
+  }
+
+}

@@ -11,11 +11,14 @@ export default function Mainpage() {
 
         <div className="title">
           <div>
+            <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
+            <img src='../../assets/Lens.png' style={{zIndex:'-1', }}/>
             <h1 className="getlink_h1">getlinked Tech</h1>
             <img src='../../assets/creative1.png' style={{right:' 41rem', position: 'absolute', top: '6.5rem',}} />
             <h1 className="hackathon_h1">
               Hackathon<span className="one">1.0</span>
-              <img src='../../assets/chain.png' style={{width:'5.8rem',right:'-4.5rem',position:' absolute',}}/>
+              <img src='../../assets/Lens.png' style={{zIndex:'1', }}/>
+              <img src='../../assets/chain.png' style={{width:'5.8rem',right:'-4.5rem',position:' absolute',zIndex:'2',}}/>
               <img src="../../assets/spark.png" style={{position:'absolute', width: '5rem', right: '-9.8rem', top:' 0rem',zIndex: '100',}} />
             </h1>
             <div className="title_div">
@@ -32,6 +35,8 @@ export default function Mainpage() {
             </div>
           </div>
           <div className="man_image">
+            <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
+            <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
             <img src="../../assets/man.png"/>
             <img src='../../assets/starball.png' style={{position:'absolute',top: '-1.5rem',filter: 'none',right: '0px',width: '37rem'}}/>
           </div>
@@ -40,10 +45,13 @@ export default function Mainpage() {
 
       <div className="page2">
         <div className="page2_content1">
+        <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
           <img src='../../assets/thebigidea.png'/>
+          <img src='../../assets/arrow.png'/>
         </div>
         <div className="page2_content2">
           <h2 className="page2_h2">
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
             Introduction to getlinked <span>tech Hackathon 1.0</span>
           </h2>
           <p className="page2_p">
@@ -60,6 +68,8 @@ export default function Mainpage() {
 
       <div className="page3">
        <div> <h2 className="page3_h2">
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
+          <img src='../../assets/Lens.png' style={{zIndex:'-1', }}/>
           Rules and <span>Guidelines</span>
         </h2>
         <p className="page3_p">
@@ -71,15 +81,21 @@ export default function Mainpage() {
           change the world, that's what we're all about!
         </p></div>
         <div>
+        <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
           <img src='../../assets/lady.png' />
           <img src='../../assets/Ellipse1.svg' style={{position: 'absolute', top: '6rem',zIndex: '-1', left:'61rem'}} />
         </div>
+        <img src='../../assets/Lens.png' style={{zIndex:'-1', }}/>
       </div>
       <span className="line"></span>
 
       <div className="page4">
+      <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
         <div>
-          <img src='../../assets/judge.png'/>
+        <img src='../../assets/Ellipse1.svg' style={{position: 'absolute', top: '6rem',zIndex: '-1', left:'61rem'}} />
+          <img src='../../assets/judge.png' />
+          <img src='../../assets/Lens.png' style={{zIndex:'-1', }}/>
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
         </div>
        <div> <h2 className='page4_h2'>Judging Criteria <span>Key attributes</span></h2>
         <p>
@@ -110,6 +126,7 @@ export default function Mainpage() {
           advanced technologies or algorithms, and the scalability of the
           solution.
         </p>
+        <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
         <button style={{marginTop:'55px'}}>Read More</button>
         </div>
       </div>
@@ -118,6 +135,7 @@ export default function Mainpage() {
       <div className="page5">
         <div>
           <div className='page5_div_h2_p'>
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
         <h2>Frequently Ask <span>Question</span></h2>
             <p>We got answers to the questions that you might want to ask about <strong>getlinked Hackathon 1.0</strong></p>
           </div>
@@ -130,13 +148,17 @@ export default function Mainpage() {
           <p>Can I work on a project I started before the hackathon? <span>+</span></p></div>
         </div>
         <div>
-        <div className='questions'>
+        <img src='../../assets/Lens.png' style={{zIndex:'-1', }}/>
+          <div className='questions'>
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
         <span className='q1'>?</span>
-         <span className='q2'>?</span>
+            <span className='q2'>?</span>
+            <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
          <span className="q3">?</span>
         </div>
           <img src='../../assets/cwok.png' />
         </div>
+        <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
       </div>
       <span className="line"></span>
 
@@ -181,6 +203,7 @@ export default function Mainpage() {
               <span className="line_span">1</span>
             </div>
             <h3>November 18, 2023</h3>
+            <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
           </div>
 
           <div className="aside_div4">
@@ -215,7 +238,9 @@ export default function Mainpage() {
                 <div className='line_div'></div>
               <span className="line_span">1</span>
             </div>
-           <div> <h2>Demo Day</h2>
+            <div>
+            <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
+              <h2>Demo Day</h2>
             <p>
               Teams get the opportunity to pitch their projects to judges. The
               winner of the hackathon will also be announced on this day
@@ -227,13 +252,19 @@ export default function Mainpage() {
       
       <div className="page7">
        <div> <h2>Prizes and <span>Rewards</span></h2>
-        <p>
+          <p>
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
           Highlight of the prizes or rewards for winners and for participants.
         </p>
         </div>
         <div className='prizes'>
-          <img src='../../assets/award.png' className='award'/>
+        <img src='../../assets/Lens.png' style={{zIndex:'-1', }}/>
+        <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
+          <img src='../../assets/award.png' className='award' />
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
           <div className='medals'>
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
               <div className='silver'><img src='../../assets/silver.png'/>
               <h3>2nd <span>Runner</span></h3> 
               <h5>N300,000</h5>
@@ -241,11 +272,14 @@ export default function Mainpage() {
             <div className='gold'><img src='../../assets/gold.png' />
             <h3>1nd <span>Runner</span></h3> 
               <h5>N450,000</h5>
+              <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
             </div>
+            <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
             <div className='bronze'><img src='../../assets/bronze.png' />
             <h3>3nd <span>Runner</span></h3> 
               <h5>N150,000</h5>
             </div>
+            <img src='../../assets/Lens.png' style={{zIndex:'-1', }}/>
           </div>
         </div>
       </div>
@@ -256,25 +290,33 @@ export default function Mainpage() {
           Getlinked Hackathon 1.0 is honored to have the following major
           companies as its partners and sponsors
         </p>
+        <img src='../../assets/Lens.png' style={{zIndex:'-1', }}/>
+        <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
         <div className='ps'>
-          <img src='../../assets/Libertycompany.png' className='liberty'/>
+          <img src='../../assets/Libertycompany.png' className='liberty' />
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
           <img src='../../assets/Libertycompanywhite.png' className='libertywhite'/>
           <img src='../../assets/Winwiselogo.png' className='winwise'/>
           <img src='../../assets/wisperlogo.png' className='wisper'/>
-          <img src='../../assets/Paybox.png' className='paybox'/>
+          <img src='../../assets/Paybox.png' className='paybox' />
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
           <img src='../../assets/VuzualPlus.png' className='vuzual'/>
         </div>
+        <img src='../../assets/Lens.png' style={{zIndex:'-1', }}/>
       </div>
 
       <div className="page9">
         <h2>Privacy Policy and <span>Terms</span></h2>
         <h4>Last updated on September 12, 2023</h4>
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
         <p>
           Below are our privacy & policy, which outline a lot of goodies. it’s
           our aim to always take of our participant
         </p>
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
 
         <div className="page9_div1">
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
           <p>
             At getlinked tech Hackathon 1.0, we value your privacy and are
             committed to protecting your personal information. This Privacy
@@ -283,7 +325,8 @@ export default function Mainpage() {
             participating in our event, you consent to the practices described
             in this policy.
           </p>
-
+          <img src='../../assets/Lens.png' style={{ zIndex: '-1', }} />
+          
           <h2>Licensing Policy</h2>
           <h3>Here are terms of our Standard License:</h3>
           <ul>
@@ -296,6 +339,14 @@ export default function Mainpage() {
               sites, for your project developement
             </li>
           </ul>
+        </div>
+        <div className="page9_div2">
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
+          <img src="../../assets/shield.png" style={{ position: 'absolute', }} />
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
+          <img src="../../assets/lock.png" style={{ position: 'relative', }} />
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
+          <img src='../../assets/star.svg' style={{ position: 'absolute', }} />
         </div>
       </div>
     </div>

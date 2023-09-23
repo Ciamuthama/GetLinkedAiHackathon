@@ -1,5 +1,15 @@
+.footer{
+    margin-top: 3rem;
+}
+
+.footer_getlinked{
+    display: flex;
+    justify-content: space-around;
+}
+
+
 .footer_getlinked h2{
-    color: #FFF;
+color: #FFF;
 font-family: Clash Display;
 font-size: 1.875rem;
 font-style: normal;
@@ -71,7 +81,14 @@ font-weight: 400;
 line-height: normal;
 }
 
-
+.horizontal_text{
+    display: flex;
+    justify-content: flex-start;
+    gap: 16rem;
+    position: relative;
+    left: 7rem;
+    align-items: center;
+}
 
 .terms{
     color: #FFF;
@@ -80,18 +97,21 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: 172.4%; 
-    width:11.625rem;
 }
 
 .terms span{
     border-left: 0.125rem solid #D434FE;
     height: 1.0625rem;
+    position: relative;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .socials{
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     gap: 1rem;
+    align-items: center;
 }
 
 .socials h3{

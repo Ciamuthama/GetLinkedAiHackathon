@@ -29,7 +29,7 @@
   position: relative;
   color: #fff;
   font-family: Clash Display;
-  font-size: 80px;
+  font-size: 6vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -45,7 +45,7 @@
   top: 72px;
   color: #fff;
   font-family: Clash Display;
-  font-size: 80px;
+  font-size: 6vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -68,7 +68,7 @@
 .title_p {
   color: #fff;
   font-family: Montserrat;
-  font-size: 20px;
+  font-size: 1.45vw;
   font-style: normal;
   font-weight: 400;
   line-height: 166%;
@@ -77,57 +77,63 @@
 }
 
 .countdown {
+
   color: #fff;
   font-family: Unica One;
-  font-size: 64px;
+  font-size: 5vw;
   font-style: normal;
   font-weight: 400;
   line-height: 133%;
   position: relative;
-  top: 1rem;
-  margin-bottom: 5rem;
+  top: 3vw;
+  margin-bottom: 7vw;
+
 }
 
 .countdown span {
   color: #fff;
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: 1vw;
   font-style: normal;
   font-weight: 400;
   line-height: 133%;
 }
 
 .man_image {
-  top: 4.4rem;
+  top: 5.2vw;
   position: relative;
-  right: 0rem;
+  right: 0vw;
   overflow: hidden;
-  height: 33.7rem;
+  height: 39.5vw;
 }
 
 .man_image img {
-  width: 39rem;
+  width: 46vw;
   filter: grayscale(1);
 }
 
 .page2 {
   display: flex;
   justify-content: space-between;
-  margin-left: 169px;
-  margin-right: 169px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  gap: 8vw;
+  align-items: center;
 }
 
 h2 {
   color: #fff;
   font-family: Clash Display;
-  font-size: 32px;
+  font-size: 2.3vw;
   font-style: normal;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 1.67vw;
 }
 
 .page2_h2 {
-  width: 398px;
+  width: 34vw;;
 }
 
 span {
@@ -137,15 +143,15 @@ span {
 p {
   color: #fff;
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: 1vw;
   font-style: normal;
   font-weight: 400;
-  line-height: 27.5px;
+  line-height: 1.6vw;
 }
 
 .page2_p,
 .page3_p {
-  width: 535px;
+  width: 38vw;
 }
 
 .page3 {
@@ -164,25 +170,27 @@ p {
   display: flex;
   align-items: center;
   position: relative;
-  margin-bottom: 14.5rem;
+  margin-bottom: 10vw;
+  margin-top: 8vw;
+
 }
 
 .page4_h2 {
-  width: 267px;
+  width: 20vw;
 }
 
 .page4_h2 span {
-  font-size: 32px !important;
+  font-size: 2.3vw !important;
   color: #d434fe;
 }
 
 .page4 p {
-  width: 533px;
+  width: 39vw;
 }
 
 .page4 span {
   color: #d434fe;
-  font-size: 14px;
+  font-size: 1vw;
   font-style: normal;
   font-weight: 700;
 }
@@ -191,7 +199,7 @@ p {
   display: flex;
   align-items: center;
   position: relative;
-  left: 169px;
+  left: 10vw;
   top: 4.625rem;
   margin-bottom: 166px;
 }
@@ -199,19 +207,19 @@ p {
 .questions {
   position: relative;
   display: flex;
-  left: 4rem;
-  bottom: -2rem;
+  left: 5vw;
+  bottom: -2vw;
 }
 
 .q1{
   color: #a866fd;
   font-family: MADE TOMMY Outline;
-  font-size: 96px;
+  font-size: 7.1vw;
   font-style: normal;
   font-weight: 500;
-  width: 171px;
-  height: 71px;
-  line-height: 27.5px;
+  width: 13vw;
+  height: 5vw;
+  line-height: 2vw;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
@@ -220,22 +228,22 @@ p {
 .q2 {
   color: #d434fe;
   font-family: MADE TOMMY Outline;
-  font-size: 128px;
+  font-size: 9vw;
   font-style: normal;
   font-weight: 500;
-  line-height: 27.5px;
+  line-height: 2vw;
    
 }
 
 .q3 {
   color: #a866fd;
   font-family: MADE TOMMY Outline;
-  font-size: 96px;
+  font-size: 7.1vw;
   font-style: normal;
   font-weight: 500;
-  line-height: 27.5px;
-  width: 171px;
-  height: 71px;
+  width: 13vw;
+  height: 5vw;
+  line-height: 2vw;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -246,23 +254,23 @@ p {
 }
 
 .page5_div_h2_p h2{
-  width:253px ;
+  width: 19vw;
   color: #FFF;
   font-family: Clash Display;
-  font-size: 32px;
+  font-size: 2.4vw;
   font-style: normal;
   font-weight: 700;
 }
 
 .page5_div_h2_p p{
-  width: 342px;
+  width: 25vw;
 }
 
 .page5_div_p p{
-  margin-bottom: 21px;
+  margin-bottom: 2vw;
   border-bottom: 1px solid #D434FE;
-  width: 427px;
-  height: 37px;
+  width: 32vw;
+  height: 3vw;
 }
 
 .page5_div_p span{
@@ -283,7 +291,7 @@ strong{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 6.18rem;
+  margin-bottom: 14vw;
 }
 
 .page6_h2{
@@ -297,16 +305,15 @@ text-align: center;
 }
 
 .page6_p1{
-margin-top: 0.75rem;
-width: 21.625rem;
+  margin-top: 0.75vw;
+  width: 25vw;
   color: #FFF;
-text-align: center;
-font-family: Montserrat;
-font-size: 0.875rem;
-font-style: normal;
-text-align: center;
-font-weight: 400;
-line-height: 172.4%; 
+  font-family: Montserrat;
+  font-size: 0.95vw;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  line-height: 172.4%; 
 }
 
 .page6 h2{
@@ -330,10 +337,10 @@ line-height: normal;
 
 
 .aside_div1 p{
-  right: 5.9rem;
+  right: 7vw;
   text-align: right;
-  font-size: 0.875rem;
-  width: 27.25rem;
+  font-size: 1.035vw;
+  width: 32vw;
   position: relative;
 }
 
@@ -385,7 +392,6 @@ height: 5.375rem;
 .aside_div1,.aside_div2,.aside_div3,.aside_div4,.aside_div5,.aside_div6{
   display: flex;
   align-items: center;
-  gap: 2rem;
 }
 
 .aside_div1 h3{
@@ -401,20 +407,20 @@ height: 5.375rem;
 
 .aside_div2 h2{
   position: relative;
-  left: 6.8rem;
+  left: 6.6vw;
 }
 
 .aside_div2 h3{
   text-align: end;
-  right: 4.4rem;
+  right: 7vw;
   position: relative;
 }
 
 .aside_div2 p{
   position: relative;
-  font-size: 1rem;
-  width: 30.125rem;
-  left: 6.8rem;
+  font-size: 1.035vw;
+  width: 35vw;
+  left: 6.6vw;
 }
 
 .aside_div2 .div_wrapper{
@@ -424,15 +430,15 @@ height: 5.375rem;
 
 .aside_div3 h2{
   position: relative;
-    left: 3.5rem;
+  left: 2.2vw;
 }
 
 .aside_div3 p{
   text-align: right;
-  font-size: 1rem;
-  width: 24.25rem;
+  font-size: 1.035vw;
+  width: 28vw;
   position: relative;
-  right: 1.4rem;
+  right: 3.1vw;
 }
 
 .aside_div3 h3{
@@ -454,7 +460,7 @@ height: 5.375rem;
 
 .aside_div4 h3{
   position: relative;
-  left: 8.2rem;
+  left: 7.8vw;
 }
 
 .aside_div4 p{
@@ -516,7 +522,8 @@ height: 5.375rem;
 }
 
 .page7{
-  margin-bottom:8rem;
+  margin-bottom: 8rem;
+    margin-top: 10rem;
 }
 
 .prizes{
@@ -532,13 +539,13 @@ height: 30.125rem;
 }
 
 .page7 h2{
-  width:10.875rem;
-  margin-left:53.62rem;
+  width: 13vw;
+  margin-left: 62.62vw;
 }
 
 .page7 p{
-  margin-left:53.62rem;
-  width: 25.0625rem;
+  margin-left: 62.62vw;
+  width: 27vw;
 }
 
 .medals{
@@ -550,8 +557,8 @@ height: 30.125rem;
 
 .silver{
   display: flex;
-  width: 13.25rem;
-  height: 18.5rem;
+  width: 15vw;
+  height: 21.7vw;
   border-radius: 0.5rem;
   border: 1px solid #D434FE;
   background: rgba(212, 52, 254, 0.12);
@@ -560,20 +567,20 @@ height: 30.125rem;
 }
 
 .silver img{
-  width: 11.1875rem;
-  height: 11.25rem;
+  width: 13.5vw;
+  height: 13.5vw;
   position: relative;
-  bottom: 5.3rem;
+  bottom: 6.4vw;
 }
 
 .medals h3{
-width:5.75rem;
-color: #FFF;
-font-family: Montserrat;
-font-size: 2.25rem;
-text-align:center;
-font-weight: 700;
-margin: 0;
+  width: 5.75vw;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 2.25vw;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
 }
 
 .medals span{
@@ -593,55 +600,56 @@ font-weight: 600;
 
 .gold{
   border-radius: 0.5rem;
-border: 1px solid #903AFF;
-background: rgba(144, 58, 255, 0.12);
-width: 13.25rem;
-height: 21.6875rem;
-flex-direction: column;
+  border: 1px solid #903AFF;
+  background: rgba(144, 58, 255, 0.12);
+  width: 15vw;
+  height: 25.5vw;
+  flex-direction: column;
   align-items: center;
   display: flex;
 }
 
 .gold img{
-  width: 18.5rem;
-  height: 18.5rem;
+  width: 22vw;
+  height: 22vw;
   position: relative;
-  bottom: 10.3rem;
+  bottom: 10vw;
 }
 
 .gold h3, .gold h5{
   position:relative;
-  bottom:8.3rem;
+  bottom:7rem;
 }
 
 .bronze{
-  border-radius: 0.5rem;
-border: 1px solid #D434FE;
-background: rgba(212, 52, 254, 0.12);
-width: 13.25rem;
-height: 18.5rem;
-flex-direction: column;
-  align-items: center;
   display: flex;
+  width: 15vw;
+  height: 21.7vw;
+  border-radius: 0.5rem;
+  border: 1px solid #D434FE;
+  background: rgba(212, 52, 254, 0.12);
+  flex-direction: column;
+  align-items: center;
 }
 
 .silver h3, .silver h5,.bronze h3, .bronze h5{
-  position:relative;
-  bottom:3.3rem;
+  position: relative;
+  bottom: 3.3vw;
 }
 
 .bronze img{
-  width: 11.1875rem;
-  height: 11.25rem;
+  width: 13.5vw;
+  height: 13.5vw;
   position: relative;
-  bottom: 5.3rem;
+  bottom: 6.4vw;
 }
 
 .page8{
-  display:flex;
+  display: flex;
   justify-content: center;
-  flex-direction: row;
-margin-top:2.17rem;
+  margin-top: 2.17rem;
+  flex-direction: column;
+  align-items: center;
 }
 
 .page8 h2{
@@ -666,60 +674,28 @@ width:28.25rem;
 }
 
 .ps{
-display:flex;
-flex:wrap;
-justify-content:center;
-width:78.45rem;
-height: 35rem;
-border-radius: 0.3125rem;
-border: 1px solid #D434FE;
-background: rgba(255, 255, 255, 0.01);
+  display: flex;
+  width: 78.45rem;
+  height: 35rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #D434FE;
+  background: rgba(255, 255, 255, 0.01);
+  justify-content: center;
+  align-items: center;
 }
 
-.liberty{
-  width:7.54rem;
-  height:7.123rem;
-  border-bottom:2px solid #d434fe;
+.ps img{
+height: fit-content;
 }
 
-
-
-.libertywhite{
-     width: 13.324rem;
-    height: 2.527rem;
-    border-left:2px solid #d434fe;
-    border-right:2px solid #d434fe;
-}
-
-.winwise{
-  width:8.224rem;
-  height:6.71rem;
-  border-bottom:2px solid #d434fe;
-}
-
-.wisper{
-  width:9.1892rem;
-  height:6.84595rem;
-  border-top:2px solid #d434fe;
-}
-
-.paybox{
-  width: 12.77299rem;
-  height:1.28649rem;
-  border-top:2px solid #d434fe;
-  border-left:2px solid #d434fe;
-}
-
-.vuzual{
-  width:14.4375rem;
-  height:1.3125rem;
-border-right:2px solid #d434fe;
-}
 
 .page9{
-  display:flex;
+  display: flex;
   flex-direction: row;
+  margin-top: 10rem;
+  margin-left: 169px;
   gap: 3rem;
+  align-items: center;
 }
 
 .page9 h2{
@@ -751,10 +727,11 @@ line-height: 188.4%;
 
 .page9_div1{
   border-radius: 0.3125rem;
-border: 1px solid #D434FE;
-background: rgba(217, 217, 217, 0.03);
-width: 35.5625rem;
-height: 38rem;
+  border: 1px solid #D434FE;
+  background: rgba(217, 217, 217, 0.03);
+  width: 35.5625rem;
+  height: 38rem;
+  padding: 1rem;
 }
 
 .page9_div1 p{
@@ -781,6 +758,10 @@ line-height: 216.4%;
   line-height:30.290px;
 }
 
+.page_div ul{
+  list-style-type: none;
+}
+
 .page9_div1 li{
 color:#fff;
 font-family: Montserrat;
@@ -788,6 +769,3 @@ font: size 14px;font-weight:500;
 line-height:30.296px;
 }
 
-.page9_div li::before{
-content: url('');
-}

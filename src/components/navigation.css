@@ -1,3 +1,4 @@
+@media screen and (max-width:747px){
 .navigation {
   width: 100%;
   height: 141px;
@@ -33,15 +34,11 @@
   gap: 56px;
 }
 
-.main_nav.desktop{
-  display: inline-flex;
-}
-
-.main_nav img {
+.icon{
   display: none;
 }
 
-.mobile_use_close img {
+.close{
   display: none;
 }
 
@@ -78,16 +75,17 @@ button {
   );
 }
 
+}
+
 @media screen and (min-width: 746px) {
   .main_nav {
-    
     flex-direction: column;
     gap: 5rem;
     background: #150e28;
     backdrop-filter: blur(30px);
   }
 
-  .main_nav.open{
+  .moblie.open{
     display: flex;
   }
 

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./navigation.css";
 
+
 export default function Navigation() {
 
   const[isOpen,setIsOpen] = useState(false)
@@ -9,6 +10,8 @@ export default function Navigation() {
   const handleMenu = () => {
     setIsOpen(!isOpen)
   }
+<ContactPage
+
 
   return (
     <div className="navigation">
@@ -18,17 +21,18 @@ export default function Navigation() {
         </p>
       </div>
 
-      <div className={`main_nav ${isOpen ? 'open':'desktop'}`}>
-        <img src='../../assets/nav_icon.svg' style={{color:'white'}} onClick={handleMenu}/>
+      <div className='main_nav'>
+        <div className={`moblie ${isOpen ? 'open' : ''}`}>
+          <img src='../../assets/nav_icon.svg' style={{ color: 'white' }} className='icon' onClick={handleMenu} />
         <div className="mobile_use_close">
-        <img src="../../assets/close.svg" />
+        <img src="../../assets/close.svg" onClick={()=>setIsOpen(false)} className="close" />
         <h2>Timeline</h2>
         <h2>Overview</h2>
         <h2>FAQs</h2>
-        <h2>Contact</h2>
-        <button className='button_nav'>
+        <h2 onClick={()=> window.location.href='./pages/contactpage.jsx'}>Contact</h2>
+        <button className='button_nav' onClick={()=> window.location.href='./pages/Registerpage.jsx'}>
           Register
-        </button></div>
+        </button></div></div>
       </div>
     </div>
   );

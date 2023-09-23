@@ -1,4 +1,5 @@
 import Navigation from "../navigation";
+import './contactpage.css'
 
 export default function ContactPage() {
   return (

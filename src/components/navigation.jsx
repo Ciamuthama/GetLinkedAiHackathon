@@ -10,8 +10,6 @@ export default function Navigation() {
   const handleMenu = () => {
     setIsOpen(!isOpen)
   }
-<ContactPage
-
 
   return (
     <div className="navigation">

@@ -1,5 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
+import { BrowserRouter as Router ,Route,Link } from "react-router-dom";
+import {ContactPage} from './pages/contactpage'
+import {RegisterPage} from './pages/Registerpage'
 import "./navigation.css";
 
 
@@ -11,6 +14,8 @@ export default function Navigation() {
     setIsOpen(!isOpen)
   }
 
+
+
   return (
     <div className="navigation">
       <div>
@@ -19,19 +24,23 @@ export default function Navigation() {
         </p>
       </div>
 
-      <div className='main_nav'>
+     <Router> <div className='main_nav'>
         <div className={`moblie ${isOpen ? 'open' : ''}`}>
           <img src='../../assets/nav_icon.svg' style={{ color: 'white' }} className='icon' onClick={handleMenu} />
         <div className="mobile_use_close">
         <img src="../../assets/close.svg" onClick={()=>setIsOpen(false)} className="close" />
-        <h2>Timeline</h2>
-        <h2>Overview</h2>
-        <h2>FAQs</h2>
-        <h2 onClick={()=> window.location.href='./pages/contactpage'}>Contact</h2>
-        <button className='button_nav' onClick={()=> window.location.href='./pages/Registerpage'}>
+        <Link><h2>Timeline</h2></Link>
+       <Link> <h2>Overview</h2></Link>
+        <Link><h2>FAQs</h2></Link>
+       <Link to={'Contact'}> <h2>Contact</h2></Link>
+        <Link to={'Register'}><button className='button_nav' >
           Register
-        </button></div></div>
+            </button></Link>
+          </div>
+        </div>
       </div>
+      <Route path='Contact' component={ContactPage} />
+      <Route path='Register' component={RegisterPage} /></Router>
     </div>
   );
 }

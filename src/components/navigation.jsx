@@ -29,8 +29,8 @@ export default function Navigation() {
         <h2>Timeline</h2>
         <h2>Overview</h2>
         <h2>FAQs</h2>
-        <h2 onClick={()=> navigate('/pages/contactpage') }>Contact</h2>
-        <button className='button_nav' onClick={()=> navigate('/pages/Registerpage') }>
+        <h2>Contact</h2>
+        <button className='button_nav'>
           Register
         </button></div>
       </div>

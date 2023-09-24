@@ -1,13 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import "./navigation.css";
-import { useNavigate } from "react-router-dom";
+
 
 
 export default function Navigation() {
 
   const[isOpen,setIsOpen] = useState(false)
-  const navigate = useNavigate()
 
   const handleMenu = () => {
     setIsOpen(!isOpen)
